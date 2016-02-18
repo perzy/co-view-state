@@ -1,0 +1,27 @@
+{
+  "name": "co-view-state",
+  "description": "Koa view state middleware",
+  "repository": "https://github.com/perzy/co-view-state.git",
+  "version": "0.0.1",
+  "keywords": [
+    "koa",
+    "middleware",
+    "view"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "koa": "*",
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.4.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
